@@ -14,3 +14,63 @@
   <h1>Decoding national mentality</h1><img src="https://res.cloudinary.com/olena/image/upload/v1534192012/masik/brain-2062057_1920.jpg"></div>
      </div>
 <body>
+
+body {
+  background-image: url("https://res.cloudinary.com/olena/image/upload/v1541096153/earth-3699351_1920.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+.container {
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-around;
+  margin: auto; 
+  text-align: center;
+
+}
+
+#one {
+  background-color: white;
+  border: 10px solid rgba(51,0,0,0.7);
+  margin: 10px;
+  width: 250px;
+  height: 250px;
+ }
+
+#two
+{
+  background-color: white;
+  border: 10px solid rgba(51,0,0,0.7);
+   margin: 10px;
+  width: 250px;
+  height: 250px;
+}
+
+#three
+{
+  background-color: white;
+  border: 10px solid rgba(51,0,0,0.7);
+   margin: 10px;
+  width: 250px;
+  height: 250px;
+}
+
+#four 
+{
+  background-color: white;
+  border: 10px solid rgba(51,0,0,0.7);
+   margin: 10px;
+  width: 250px;
+  height: 250px;
+}
+img {
+ width: 25%;
+ margin: auto; 
+  
+}
+h1 {
+  color: rgba(51,0,0,1);
+}
