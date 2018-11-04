@@ -1,5 +1,6 @@
 * {
-  
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -23,12 +24,13 @@ button {
   background-color: white;
   color: textgray;
   display: inline-block;
-  width: 240px;
-  height: 50px;
+  width: 350px;
+  height: auto;
   }
 
 button a {
   color: green;
+  display: inline-block;
 }
 button a:hover {
   color: darkgreen;
