@@ -1,0 +1,44 @@
+* {
+  
+}
+
+body {
+  animation-name: background-image;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+ }
+
+@keyframes background-image {
+  0% {background-image: url('https://res.cloudinary.com/olena/image/upload/v1538620709/tulips-3341241_1920.jpg');}
+  50% {background-image: url('https://res.cloudinary.com/olena/image/upload/v1538620846/3.jpg');}
+  100% {background-image: url('https://res.cloudinary.com/olena/image/upload/v1538620710/tulips_3.jpg');}
+  }
+button {
+  font-family: Roboto, monospace;
+  font-size: 50px;
+  border-radius: 14%;
+  background-color: white;
+  color: textgray;
+  display: inline-block;
+  width: 240px;
+  height: 50px;
+  }
+
+button a {
+  color: green;
+}
+button a:hover {
+  color: darkgreen;
+}
+button a:visited {
+  color: rgb(14, 73, 14);
+  }
+header {
+  font-family: Roboto, monospace;
+  font-size: 30px;
+  color: white;
+  padding-left: 30px; 
+}
